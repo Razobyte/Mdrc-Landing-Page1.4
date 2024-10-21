@@ -566,6 +566,10 @@ video {
   top: 0px;
 }
 
+.z-50 {
+  z-index: 50;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1388,6 +1392,11 @@ video {
     padding-right: 2.5rem;
   }
 
+  .sm\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .sm\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -1600,8 +1609,8 @@ video {
     justify-content: flex-start;
   }
 
-  .lg\:gap-16 {
-    gap: 4rem;
+  .lg\:gap-10 {
+    gap: 2.5rem;
   }
 
   .lg\:px-0 {
